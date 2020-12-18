@@ -3,6 +3,7 @@
 #include <unistd.h>
 #include <sys/wait.h>
 #include <time.h>
+
 pid_t fils_1 , fils_2 ;
 
 void nbre_premier()
@@ -49,7 +50,7 @@ int main()
     if(fils_2 == 0)
     {
 	printf("\n\n Contenu du réperetoire courant : \n\t") ;
-	system("ls") ;
+	system("ls");
 	exit(0) ;
     }
 
